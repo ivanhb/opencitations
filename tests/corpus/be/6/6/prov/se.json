@@ -1,0 +1,33 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "iri": "http://localhost:8080/corpus/be/5/prov/", 
+            "@graph": [
+                {
+                    "a": "metadata_snapshot", 
+                    "snapshot_of": "http://localhost:8080/corpus/be/5", 
+                    "generated_by": "http://localhost:8080/corpus/be/5/prov/ca/1", 
+                    "label": "snapshot of entity metadata 1 related to bibliographic entry 5 [se/1 -> be/5]", 
+                    "iri": "http://localhost:8080/corpus/be/5/prov/se/1", 
+                    "generated": "2016-12-11T23:39:20", 
+                    "source": "http://www.ebi.ac.uk/europepmc/webservices/rest/PMC5101637/fullTextXML"
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/be/4/prov/", 
+            "@graph": [
+                {
+                    "a": "metadata_snapshot", 
+                    "snapshot_of": "http://localhost:8080/corpus/be/4", 
+                    "generated_by": "http://localhost:8080/corpus/be/4/prov/ca/1", 
+                    "label": "snapshot of entity metadata 1 related to bibliographic entry 4 [se/1 -> be/4]", 
+                    "iri": "http://localhost:8080/corpus/be/4/prov/se/1", 
+                    "generated": "2016-12-11T23:39:20", 
+                    "source": "http://www.ebi.ac.uk/europepmc/webservices/rest/PMC5101637/fullTextXML"
+                }
+            ]
+        }
+    ]
+}

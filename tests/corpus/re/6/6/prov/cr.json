@@ -1,0 +1,48 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "iri": "http://localhost:8080/corpus/re/5/prov/", 
+            "@graph": [
+                {
+                    "a": "curatorial_role", 
+                    "held_by": "http://localhost:8080/corpus/prov/pa/1", 
+                    "curatorial_role_type": "curator", 
+                    "label": "curatorial role 1 related to resource embodiment 5 [cr/1 -> re/5]", 
+                    "iri": "http://localhost:8080/corpus/re/5/prov/cr/1"
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/re/4/prov/", 
+            "@graph": [
+                {
+                    "a": "curatorial_role", 
+                    "held_by": "http://localhost:8080/corpus/prov/pa/1", 
+                    "curatorial_role_type": "curator", 
+                    "label": "curatorial role 1 related to resource embodiment 4 [cr/1 -> re/4]", 
+                    "iri": "http://localhost:8080/corpus/re/4/prov/cr/1"
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/re/6/prov/", 
+            "@graph": [
+                {
+                    "a": "curatorial_role", 
+                    "held_by": "http://localhost:8080/corpus/prov/pa/1", 
+                    "curatorial_role_type": "curator", 
+                    "label": "curatorial role 1 related to resource embodiment 6 [cr/1 -> re/6]", 
+                    "iri": "http://localhost:8080/corpus/re/6/prov/cr/1"
+                }, 
+                {
+                    "a": "curatorial_role", 
+                    "held_by": "http://localhost:8080/corpus/prov/pa/2", 
+                    "curatorial_role_type": "metadata_provider", 
+                    "label": "curatorial role 2 related to resource embodiment 6 [cr/2 -> re/6]", 
+                    "iri": "http://localhost:8080/corpus/re/6/prov/cr/2"
+                }
+            ]
+        }
+    ]
+}

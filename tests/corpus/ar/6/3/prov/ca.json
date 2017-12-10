@@ -1,0 +1,59 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "iri": "http://localhost:8080/corpus/ar/3/prov/", 
+            "@graph": [
+                {
+                    "a": [
+                        "curatorial_activity", 
+                        "creation"
+                    ], 
+                    "involved": [
+                        "http://localhost:8080/corpus/ar/3/prov/cr/1", 
+                        "http://localhost:8080/corpus/ar/3/prov/cr/2"
+                    ], 
+                    "label": "curatorial activity 1 related to agent role 3 [ca/1 -> ar/3]", 
+                    "description": "The entity 'http://localhost:8080/corpus/ar/3' has been created.", 
+                    "iri": "http://localhost:8080/corpus/ar/3/prov/ca/1"
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/ar/2/prov/", 
+            "@graph": [
+                {
+                    "a": [
+                        "creation", 
+                        "curatorial_activity"
+                    ], 
+                    "involved": [
+                        "http://localhost:8080/corpus/ar/2/prov/cr/2", 
+                        "http://localhost:8080/corpus/ar/2/prov/cr/1"
+                    ], 
+                    "label": "curatorial activity 1 related to agent role 2 [ca/1 -> ar/2]", 
+                    "description": "The entity 'http://localhost:8080/corpus/ar/2' has been created.", 
+                    "iri": "http://localhost:8080/corpus/ar/2/prov/ca/1"
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/ar/1/prov/", 
+            "@graph": [
+                {
+                    "a": [
+                        "creation", 
+                        "curatorial_activity"
+                    ], 
+                    "involved": [
+                        "http://localhost:8080/corpus/ar/1/prov/cr/1", 
+                        "http://localhost:8080/corpus/ar/1/prov/cr/2"
+                    ], 
+                    "label": "curatorial activity 1 related to agent role 1 [ca/1 -> ar/1]", 
+                    "description": "The entity 'http://localhost:8080/corpus/ar/1' has been created.", 
+                    "iri": "http://localhost:8080/corpus/ar/1/prov/ca/1"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "iri": "http://localhost:8080/corpus/ar/43/prov/", 
+            "@graph": [
+                {
+                    "a": "metadata_snapshot", 
+                    "snapshot_of": "http://localhost:8080/corpus/ar/43", 
+                    "generated_by": "http://localhost:8080/corpus/ar/43/prov/ca/1", 
+                    "label": "snapshot of entity metadata 1 related to agent role 43 [se/1 -> ar/43]", 
+                    "iri": "http://localhost:8080/corpus/ar/43/prov/se/1", 
+                    "generated": "2016-12-11T23:39:20", 
+                    "source": "http://api.crossref.org/works/10.1016/j.bmcl.2015.09.006"
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/ar/44/prov/", 
+            "@graph": [
+                {
+                    "a": "metadata_snapshot", 
+                    "snapshot_of": "http://localhost:8080/corpus/ar/44", 
+                    "generated_by": "http://localhost:8080/corpus/ar/44/prov/ca/1", 
+                    "label": "snapshot of entity metadata 1 related to agent role 44 [se/1 -> ar/44]", 
+                    "iri": "http://localhost:8080/corpus/ar/44/prov/se/1", 
+                    "generated": "2016-12-11T23:39:20", 
+                    "source": "http://api.crossref.org/works/10.1016/j.bmcl.2015.09.006"
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/ar/45/prov/", 
+            "@graph": [
+                {
+                    "a": "metadata_snapshot", 
+                    "snapshot_of": "http://localhost:8080/corpus/ar/45", 
+                    "generated_by": "http://localhost:8080/corpus/ar/45/prov/ca/1", 
+                    "label": "snapshot of entity metadata 1 related to agent role 45 [se/1 -> ar/45]", 
+                    "iri": "http://localhost:8080/corpus/ar/45/prov/se/1", 
+                    "generated": "2016-12-11T23:39:20", 
+                    "source": "http://api.crossref.org/works/10.1016/j.bmcl.2015.09.006"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "iri": "http://localhost:8080/corpus/id/13/prov/", 
+            "@graph": [
+                {
+                    "a": "metadata_snapshot", 
+                    "snapshot_of": "http://localhost:8080/corpus/id/13", 
+                    "generated_by": "http://localhost:8080/corpus/id/13/prov/ca/1", 
+                    "label": "snapshot of entity metadata 1 related to identifier 13 [se/1 -> id/13]", 
+                    "iri": "http://localhost:8080/corpus/id/13/prov/se/1", 
+                    "generated": "2016-12-11T23:39:09", 
+                    "source": "http://www.ebi.ac.uk/europepmc/webservices/rest/PMC4679344/fullTextXML"
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/id/15/prov/", 
+            "@graph": [
+                {
+                    "a": "metadata_snapshot", 
+                    "snapshot_of": "http://localhost:8080/corpus/id/15", 
+                    "generated_by": "http://localhost:8080/corpus/id/15/prov/ca/1", 
+                    "label": "snapshot of entity metadata 1 related to identifier 15 [se/1 -> id/15]", 
+                    "iri": "http://localhost:8080/corpus/id/15/prov/se/1", 
+                    "generated": "2016-12-11T23:39:09", 
+                    "source": "http://api.crossref.org/works/10.1097/01.aog.0000255980.88205.15"
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/id/14/prov/", 
+            "@graph": [
+                {
+                    "a": "metadata_snapshot", 
+                    "snapshot_of": "http://localhost:8080/corpus/id/14", 
+                    "generated_by": "http://localhost:8080/corpus/id/14/prov/ca/1", 
+                    "label": "snapshot of entity metadata 1 related to identifier 14 [se/1 -> id/14]", 
+                    "iri": "http://localhost:8080/corpus/id/14/prov/se/1", 
+                    "generated": "2016-12-11T23:39:09", 
+                    "source": "http://api.crossref.org/works/10.1097/01.aog.0000255980.88205.15"
+                }
+            ]
+        }
+    ]
+}

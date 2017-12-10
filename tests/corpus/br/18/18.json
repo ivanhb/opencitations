@@ -1,0 +1,49 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "a": [
+                "periodical_issue", 
+                "document"
+            ], 
+            "iri": "http://localhost:8080/corpus/br/18", 
+            "part_of": "http://localhost:8080/corpus/br/20", 
+            "number": "11", 
+            "label": "bibliographic resource 18 [br/18]"
+        }, 
+        {
+            "a": [
+                "article", 
+                "document"
+            ], 
+            "part_of": "http://localhost:8080/corpus/br/18", 
+            "format": "http://localhost:8080/corpus/re/5", 
+            "title": "Histone deacetylase inhibitors in the treatment of cancer: overview and perspectives", 
+            "label": "bibliographic resource 17 [br/17]", 
+            "iri": "http://localhost:8080/corpus/br/17", 
+            "year": "2012", 
+            "contributor": [
+                "http://localhost:8080/corpus/ar/36", 
+                "http://localhost:8080/corpus/ar/38", 
+                "http://localhost:8080/corpus/ar/39", 
+                "http://localhost:8080/corpus/ar/37", 
+                "http://localhost:8080/corpus/ar/40"
+            ], 
+            "identifier": [
+                "http://localhost:8080/corpus/id/26", 
+                "http://localhost:8080/corpus/id/22"
+            ]
+        }, 
+        {
+            "a": [
+                "document", 
+                "periodical_volume"
+            ], 
+            "iri": "http://localhost:8080/corpus/br/16", 
+            "part_of": "http://localhost:8080/corpus/br/15", 
+            "number": "12", 
+            "label": "bibliographic resource 16 [br/16]"
+        }
+    ], 
+    "iri": "http://localhost:8080/corpus/br/"
+}

@@ -1,0 +1,47 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "iri": "http://localhost:8080/corpus/ra/19/prov/", 
+            "@graph": [
+                {
+                    "a": "metadata_snapshot", 
+                    "snapshot_of": "http://localhost:8080/corpus/ra/19", 
+                    "generated_by": "http://localhost:8080/corpus/ra/19/prov/ca/1", 
+                    "label": "snapshot of entity metadata 1 related to responsible agent 19 [se/1 -> ra/19]", 
+                    "iri": "http://localhost:8080/corpus/ra/19/prov/se/1", 
+                    "generated": "2016-12-11T23:39:09", 
+                    "source": "http://api.crossref.org/works?rows=1&query=WHO.%20GLOBOCAN%202012%2C%20Estimated%20cancer%20incidence%2C%20mortality%20and%20prevalence%20worldwide%20in%202012.%202012%3B%20http%2C//globocan.iarc.fr/Pages/fact_sheets_population.aspx%20%283%20April%202015%2C%20date%20last%20accessed%29."
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/ra/20/prov/", 
+            "@graph": [
+                {
+                    "a": "metadata_snapshot", 
+                    "snapshot_of": "http://localhost:8080/corpus/ra/20", 
+                    "generated_by": "http://localhost:8080/corpus/ra/20/prov/ca/1", 
+                    "label": "snapshot of entity metadata 1 related to responsible agent 20 [se/1 -> ra/20]", 
+                    "iri": "http://localhost:8080/corpus/ra/20/prov/se/1", 
+                    "generated": "2016-12-11T23:39:09", 
+                    "source": "http://api.crossref.org/works?rows=1&query=WHO.%20GLOBOCAN%202012%2C%20Estimated%20cancer%20incidence%2C%20mortality%20and%20prevalence%20worldwide%20in%202012.%202012%3B%20http%2C//globocan.iarc.fr/Pages/fact_sheets_population.aspx%20%283%20April%202015%2C%20date%20last%20accessed%29."
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/ra/21/prov/", 
+            "@graph": [
+                {
+                    "a": "metadata_snapshot", 
+                    "snapshot_of": "http://localhost:8080/corpus/ra/21", 
+                    "generated_by": "http://localhost:8080/corpus/ra/21/prov/ca/1", 
+                    "label": "snapshot of entity metadata 1 related to responsible agent 21 [se/1 -> ra/21]", 
+                    "iri": "http://localhost:8080/corpus/ra/21/prov/se/1", 
+                    "generated": "2016-12-11T23:39:09", 
+                    "source": "http://api.crossref.org/works?rows=1&query=WHO.%20GLOBOCAN%202012%2C%20Estimated%20cancer%20incidence%2C%20mortality%20and%20prevalence%20worldwide%20in%202012.%202012%3B%20http%2C//globocan.iarc.fr/Pages/fact_sheets_population.aspx%20%283%20April%202015%2C%20date%20last%20accessed%29."
+                }
+            ]
+        }
+    ]
+}

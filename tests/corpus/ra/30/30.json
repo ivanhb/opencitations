@@ -1,0 +1,27 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "a": "agent", 
+            "iri": "http://localhost:8080/corpus/ra/29", 
+            "label": "responsible agent 29 [ra/29]", 
+            "fname": "Kapp", 
+            "gname": "Daniel S."
+        }, 
+        {
+            "a": "agent", 
+            "iri": "http://localhost:8080/corpus/ra/28", 
+            "label": "responsible agent 28 [ra/28]", 
+            "fname": "Berek", 
+            "gname": "Jonathan S."
+        }, 
+        {
+            "a": "agent", 
+            "iri": "http://localhost:8080/corpus/ra/30", 
+            "label": "responsible agent 30 [ra/30]", 
+            "fname": "Osann", 
+            "gname": "Kathryn"
+        }
+    ], 
+    "iri": "http://localhost:8080/corpus/ra/"
+}

@@ -1,0 +1,67 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json",
+    "@graph": [
+        {
+            "a": [
+                "document",
+                "article"
+            ],
+            "part_of": "http://localhost:8080/corpus/br/2",
+            "subtitle": "Diagnosis, Treatment and Follow-up",
+            "reference": [
+                "http://localhost:8080/corpus/be/1",
+                "http://localhost:8080/corpus/be/2"
+            ],
+            "format": "http://localhost:8080/corpus/re/1",
+            "citation": [
+                "http://localhost:8080/corpus/br/9",
+                "http://localhost:8080/corpus/br/5"
+            ],
+            "label": "bibliographic resource 1 [br/1]",
+            "iri": "http://localhost:8080/corpus/br/1",
+            "year": "2016",
+            "contributor": [
+                "http://localhost:8080/corpus/ar/11",
+                "http://localhost:8080/corpus/ar/3",
+                "http://localhost:8080/corpus/ar/8",
+                "http://localhost:8080/corpus/ar/4",
+                "http://localhost:8080/corpus/ar/2",
+                "http://localhost:8080/corpus/ar/12",
+                "http://localhost:8080/corpus/ar/5",
+                "http://localhost:8080/corpus/ar/7",
+                "http://localhost:8080/corpus/ar/1",
+                "http://localhost:8080/corpus/ar/9",
+                "http://localhost:8080/corpus/ar/6",
+                "http://localhost:8080/corpus/ar/10"
+            ],
+            "title": "ESMO-ESGO-ESTRO Consensus Conference on Endometrial Cancer",
+            "identifier": [
+                "http://localhost:8080/corpus/id/7",
+                "http://localhost:8080/corpus/id/1",
+                "http://localhost:8080/corpus/id/3",
+                "http://localhost:8080/corpus/id/6"
+            ]
+        },
+        {
+            "a": [
+                "periodical_journal",
+                "document"
+            ],
+            "iri": "http://localhost:8080/corpus/br/3",
+            "identifier": "http://localhost:8080/corpus/id/5",
+            "title": "International Journal of Gynecological Cancer",
+            "label": "bibliographic resource 3 [br/3]"
+        },
+        {
+            "a": [
+                "periodical_issue",
+                "document"
+            ],
+            "iri": "http://localhost:8080/corpus/br/2",
+            "part_of": "http://localhost:8080/corpus/br/4",
+            "number": "1",
+            "label": "bibliographic resource 2 [br/2]"
+        }
+    ],
+    "iri": "http://localhost:8080/corpus/br/"
+}

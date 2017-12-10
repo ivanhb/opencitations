@@ -1,0 +1,48 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "iri": "http://localhost:8080/corpus/id/19/prov/", 
+            "@graph": [
+                {
+                    "a": "curatorial_role", 
+                    "held_by": "http://localhost:8080/corpus/prov/pa/1", 
+                    "curatorial_role_type": "curator", 
+                    "label": "curatorial role 1 related to identifier 19 [cr/1 -> id/19]", 
+                    "iri": "http://localhost:8080/corpus/id/19/prov/cr/1"
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/id/20/prov/", 
+            "@graph": [
+                {
+                    "a": "curatorial_role", 
+                    "held_by": "http://localhost:8080/corpus/prov/pa/1", 
+                    "curatorial_role_type": "curator", 
+                    "label": "curatorial role 1 related to identifier 20 [cr/1 -> id/20]", 
+                    "iri": "http://localhost:8080/corpus/id/20/prov/cr/1"
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/id/21/prov/", 
+            "@graph": [
+                {
+                    "a": "curatorial_role", 
+                    "held_by": "http://localhost:8080/corpus/prov/pa/3", 
+                    "curatorial_role_type": "curator", 
+                    "label": "curatorial role 1 related to identifier 21 [cr/1 -> id/21]", 
+                    "iri": "http://localhost:8080/corpus/id/21/prov/cr/1"
+                }, 
+                {
+                    "a": "curatorial_role", 
+                    "held_by": "http://localhost:8080/corpus/prov/pa/4", 
+                    "curatorial_role_type": "metadata_provider", 
+                    "label": "curatorial role 2 related to identifier 21 [cr/2 -> id/21]", 
+                    "iri": "http://localhost:8080/corpus/id/21/prov/cr/2"
+                }
+            ]
+        }
+    ]
+}

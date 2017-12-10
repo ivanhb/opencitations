@@ -1,0 +1,27 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "a": "unique_identifier", 
+            "iri": "http://localhost:8080/corpus/id/13", 
+            "type": "doi", 
+            "id": "10.1097/01.aog.0000255980.88205.15", 
+            "label": "identifier 13 [id/13]"
+        }, 
+        {
+            "a": "unique_identifier", 
+            "iri": "http://localhost:8080/corpus/id/14", 
+            "type": "url", 
+            "id": "http://dx.doi.org/10.1097/01.aog.0000255980.88205.15", 
+            "label": "identifier 14 [id/14]"
+        }, 
+        {
+            "a": "unique_identifier", 
+            "iri": "http://localhost:8080/corpus/id/15", 
+            "type": "issn", 
+            "id": "0029-7844", 
+            "label": "identifier 15 [id/15]"
+        }
+    ], 
+    "iri": "http://localhost:8080/corpus/id/"
+}

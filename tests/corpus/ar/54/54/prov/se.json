@@ -1,0 +1,47 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "iri": "http://localhost:8080/corpus/ar/54/prov/", 
+            "@graph": [
+                {
+                    "a": "metadata_snapshot", 
+                    "snapshot_of": "http://localhost:8080/corpus/ar/54", 
+                    "generated_by": "http://localhost:8080/corpus/ar/54/prov/ca/1", 
+                    "label": "snapshot of entity metadata 1 related to agent role 54 [se/1 -> ar/54]", 
+                    "iri": "http://localhost:8080/corpus/ar/54/prov/se/1", 
+                    "generated": "2016-12-11T23:39:20", 
+                    "source": "http://api.crossref.org/works/10.1038/ja.2011.35"
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/ar/53/prov/", 
+            "@graph": [
+                {
+                    "a": "metadata_snapshot", 
+                    "snapshot_of": "http://localhost:8080/corpus/ar/53", 
+                    "generated_by": "http://localhost:8080/corpus/ar/53/prov/ca/1", 
+                    "label": "snapshot of entity metadata 1 related to agent role 53 [se/1 -> ar/53]", 
+                    "iri": "http://localhost:8080/corpus/ar/53/prov/se/1", 
+                    "generated": "2016-12-11T23:39:20", 
+                    "source": "http://api.crossref.org/works/10.1038/ja.2011.35"
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/ar/52/prov/", 
+            "@graph": [
+                {
+                    "a": "metadata_snapshot", 
+                    "snapshot_of": "http://localhost:8080/corpus/ar/52", 
+                    "generated_by": "http://localhost:8080/corpus/ar/52/prov/ca/1", 
+                    "label": "snapshot of entity metadata 1 related to agent role 52 [se/1 -> ar/52]", 
+                    "iri": "http://localhost:8080/corpus/ar/52/prov/se/1", 
+                    "generated": "2016-12-11T23:39:20", 
+                    "source": "http://api.crossref.org/works/10.1038/ja.2011.35"
+                }
+            ]
+        }
+    ]
+}

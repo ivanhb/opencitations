@@ -1,0 +1,19 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "a": [
+                "creation", 
+                "curatorial_activity"
+            ], 
+            "involved": [
+                "http://localhost:8080/corpus/ra/55/prov/cr/1", 
+                "http://localhost:8080/corpus/ra/55/prov/cr/2"
+            ], 
+            "label": "curatorial activity 1 related to responsible agent 55 [ca/1 -> ra/55]", 
+            "description": "The entity 'http://localhost:8080/corpus/ra/55' has been created.", 
+            "iri": "http://localhost:8080/corpus/ra/55/prov/ca/1"
+        }
+    ], 
+    "iri": "http://localhost:8080/corpus/ra/55/prov/"
+}

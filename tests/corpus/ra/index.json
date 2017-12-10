@@ -1,0 +1,30 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "a": "occ_dataset", 
+            "description": "The OpenCitations Corpus is an open repository of scholarly citation data made available under a Creative Commons public domain dedication, which provides in RDF accurate citation information (bibliographic references) harvested from the scholarly literature (described using the SPAR Ontologies) that others may freely build upon, enhance and reuse for any purpose, without restriction under copyright or database law. This sub-dataset contains all the 'responsible agent' resources.", 
+            "keyword": [
+                "OpenCitations", 
+                "OpenCitations Corpus", 
+                "OCC", 
+                "SPAR Ontologies", 
+                "citations", 
+                "responsible agent", 
+                "bibliographic references"
+            ], 
+            "title": "The OpenCitations Corpus: Responsible Agent dataset", 
+            "label": "OCC / ra", 
+            "iri": "http://localhost:8080/corpus/ra/", 
+            "mod_date": "2016-12-11T23:39:25", 
+            "pub_date": "2016-12-11T23:39:13", 
+            "subject": [
+                "bibliographic_database", 
+                "open_access", 
+                "citations", 
+                "scholarly_communication"
+            ]
+        }
+    ], 
+    "iri": "http://localhost:8080/corpus/ra/"
+}

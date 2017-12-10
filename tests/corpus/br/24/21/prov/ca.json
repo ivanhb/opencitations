@@ -1,0 +1,59 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "iri": "http://localhost:8080/corpus/br/19/prov/", 
+            "@graph": [
+                {
+                    "a": [
+                        "creation", 
+                        "curatorial_activity"
+                    ], 
+                    "involved": [
+                        "http://localhost:8080/corpus/br/19/prov/cr/1", 
+                        "http://localhost:8080/corpus/br/19/prov/cr/2"
+                    ], 
+                    "label": "curatorial activity 1 related to bibliographic resource 19 [ca/1 -> br/19]", 
+                    "description": "The entity 'http://localhost:8080/corpus/br/19' has been created.", 
+                    "iri": "http://localhost:8080/corpus/br/19/prov/ca/1"
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/br/21/prov/", 
+            "@graph": [
+                {
+                    "a": [
+                        "creation", 
+                        "curatorial_activity"
+                    ], 
+                    "involved": [
+                        "http://localhost:8080/corpus/br/21/prov/cr/2", 
+                        "http://localhost:8080/corpus/br/21/prov/cr/1"
+                    ], 
+                    "label": "curatorial activity 1 related to bibliographic resource 21 [ca/1 -> br/21]", 
+                    "description": "The entity 'http://localhost:8080/corpus/br/21' has been created.", 
+                    "iri": "http://localhost:8080/corpus/br/21/prov/ca/1"
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/br/20/prov/", 
+            "@graph": [
+                {
+                    "a": [
+                        "creation", 
+                        "curatorial_activity"
+                    ], 
+                    "involved": [
+                        "http://localhost:8080/corpus/br/20/prov/cr/2", 
+                        "http://localhost:8080/corpus/br/20/prov/cr/1"
+                    ], 
+                    "label": "curatorial activity 1 related to bibliographic resource 20 [ca/1 -> br/20]", 
+                    "description": "The entity 'http://localhost:8080/corpus/br/20' has been created.", 
+                    "iri": "http://localhost:8080/corpus/br/20/prov/ca/1"
+                }
+            ]
+        }
+    ]
+}

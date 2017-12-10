@@ -1,0 +1,13 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "a": "generic_format", 
+            "iri": "http://localhost:8080/corpus/re/7", 
+            "lpage": "531", 
+            "fpage": "525", 
+            "label": "resource embodiment 7 [re/7]"
+        }
+    ], 
+    "iri": "http://localhost:8080/corpus/re/"
+}

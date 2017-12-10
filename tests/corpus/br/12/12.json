@@ -1,0 +1,36 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "a": [
+                "document", 
+                "periodical_journal"
+            ], 
+            "iri": "http://localhost:8080/corpus/br/11", 
+            "identifier": "http://localhost:8080/corpus/id/15", 
+            "title": "Obstetrics & Gynecology", 
+            "label": "bibliographic resource 11 [br/11]"
+        }, 
+        {
+            "a": [
+                "document", 
+                "periodical_issue"
+            ], 
+            "iri": "http://localhost:8080/corpus/br/10", 
+            "part_of": "http://localhost:8080/corpus/br/12", 
+            "number": "3", 
+            "label": "bibliographic resource 10 [br/10]"
+        }, 
+        {
+            "a": [
+                "document", 
+                "periodical_volume"
+            ], 
+            "iri": "http://localhost:8080/corpus/br/12", 
+            "part_of": "http://localhost:8080/corpus/br/11", 
+            "number": "109", 
+            "label": "bibliographic resource 12 [br/12]"
+        }
+    ], 
+    "iri": "http://localhost:8080/corpus/br/"
+}

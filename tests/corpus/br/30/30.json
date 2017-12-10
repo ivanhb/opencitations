@@ -1,0 +1,16 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "a": [
+                "document", 
+                "periodical_volume"
+            ], 
+            "iri": "http://localhost:8080/corpus/br/28", 
+            "part_of": "http://localhost:8080/corpus/br/27", 
+            "number": "64", 
+            "label": "bibliographic resource 28 [br/28]"
+        }
+    ], 
+    "iri": "http://localhost:8080/corpus/br/"
+}

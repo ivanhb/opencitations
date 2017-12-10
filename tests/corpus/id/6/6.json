@@ -1,0 +1,27 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "a": "unique_identifier", 
+            "iri": "http://localhost:8080/corpus/id/6", 
+            "type": "pmid", 
+            "id": "26645990", 
+            "label": "identifier 6 [id/6]"
+        }, 
+        {
+            "a": "unique_identifier", 
+            "iri": "http://localhost:8080/corpus/id/4", 
+            "type": "url", 
+            "id": "http://id.crossref.org/member/276", 
+            "label": "identifier 4 [id/4]"
+        }, 
+        {
+            "a": "unique_identifier", 
+            "iri": "http://localhost:8080/corpus/id/5", 
+            "type": "issn", 
+            "id": "1048-891X", 
+            "label": "identifier 5 [id/5]"
+        }
+    ], 
+    "iri": "http://localhost:8080/corpus/id/"
+}

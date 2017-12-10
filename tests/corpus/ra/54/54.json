@@ -1,0 +1,28 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "a": "agent", 
+            "label": "responsible agent 54 [ra/54]", 
+            "iri": "http://localhost:8080/corpus/ra/54", 
+            "fname": "Oberlies", 
+            "gname": "Nicholas H", 
+            "identifier": "http://localhost:8080/corpus/id/36"
+        }, 
+        {
+            "a": "agent", 
+            "iri": "http://localhost:8080/corpus/ra/52", 
+            "label": "responsible agent 52 [ra/52]", 
+            "fname": "McCulloch", 
+            "gname": "William"
+        }, 
+        {
+            "a": "agent", 
+            "iri": "http://localhost:8080/corpus/ra/53", 
+            "label": "responsible agent 53 [ra/53]", 
+            "fname": "Pearce", 
+            "gname": "Cedric J"
+        }
+    ], 
+    "iri": "http://localhost:8080/corpus/ra/"
+}

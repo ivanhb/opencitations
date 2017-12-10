@@ -1,0 +1,47 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "iri": "http://localhost:8080/corpus/id/11/prov/", 
+            "@graph": [
+                {
+                    "a": "metadata_snapshot", 
+                    "snapshot_of": "http://localhost:8080/corpus/id/11", 
+                    "generated_by": "http://localhost:8080/corpus/id/11/prov/ca/1", 
+                    "label": "snapshot of entity metadata 1 related to identifier 11 [se/1 -> id/11]", 
+                    "iri": "http://localhost:8080/corpus/id/11/prov/se/1", 
+                    "generated": "2016-12-11T23:39:09", 
+                    "source": "http://api.crossref.org/works?rows=1&query=WHO.%20GLOBOCAN%202012%2C%20Estimated%20cancer%20incidence%2C%20mortality%20and%20prevalence%20worldwide%20in%202012.%202012%3B%20http%2C//globocan.iarc.fr/Pages/fact_sheets_population.aspx%20%283%20April%202015%2C%20date%20last%20accessed%29."
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/id/10/prov/", 
+            "@graph": [
+                {
+                    "a": "metadata_snapshot", 
+                    "snapshot_of": "http://localhost:8080/corpus/id/10", 
+                    "generated_by": "http://localhost:8080/corpus/id/10/prov/ca/1", 
+                    "label": "snapshot of entity metadata 1 related to identifier 10 [se/1 -> id/10]", 
+                    "iri": "http://localhost:8080/corpus/id/10/prov/se/1", 
+                    "generated": "2016-12-11T23:39:09", 
+                    "source": "http://api.crossref.org/works?rows=1&query=WHO.%20GLOBOCAN%202012%2C%20Estimated%20cancer%20incidence%2C%20mortality%20and%20prevalence%20worldwide%20in%202012.%202012%3B%20http%2C//globocan.iarc.fr/Pages/fact_sheets_population.aspx%20%283%20April%202015%2C%20date%20last%20accessed%29."
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/id/12/prov/", 
+            "@graph": [
+                {
+                    "a": "metadata_snapshot", 
+                    "snapshot_of": "http://localhost:8080/corpus/id/12", 
+                    "generated_by": "http://localhost:8080/corpus/id/12/prov/ca/1", 
+                    "label": "snapshot of entity metadata 1 related to identifier 12 [se/1 -> id/12]", 
+                    "iri": "http://localhost:8080/corpus/id/12/prov/se/1", 
+                    "generated": "2016-12-11T23:39:09", 
+                    "source": "http://www.ebi.ac.uk/europepmc/webservices/rest/PMC4679344/fullTextXML"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "iri": "http://localhost:8080/corpus/id/36/prov/", 
+            "@graph": [
+                {
+                    "a": [
+                        "curatorial_activity", 
+                        "creation"
+                    ], 
+                    "involved": [
+                        "http://localhost:8080/corpus/id/36/prov/cr/1", 
+                        "http://localhost:8080/corpus/id/36/prov/cr/2"
+                    ], 
+                    "label": "curatorial activity 1 related to identifier 36 [ca/1 -> id/36]", 
+                    "description": "The entity 'http://localhost:8080/corpus/id/36' has been created.", 
+                    "iri": "http://localhost:8080/corpus/id/36/prov/ca/1"
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/id/35/prov/", 
+            "@graph": [
+                {
+                    "a": [
+                        "curatorial_activity", 
+                        "creation"
+                    ], 
+                    "involved": [
+                        "http://localhost:8080/corpus/id/35/prov/cr/2", 
+                        "http://localhost:8080/corpus/id/35/prov/cr/1"
+                    ], 
+                    "label": "curatorial activity 1 related to identifier 35 [ca/1 -> id/35]", 
+                    "description": "The entity 'http://localhost:8080/corpus/id/35' has been created.", 
+                    "iri": "http://localhost:8080/corpus/id/35/prov/ca/1"
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/id/34/prov/", 
+            "@graph": [
+                {
+                    "a": [
+                        "curatorial_activity", 
+                        "creation"
+                    ], 
+                    "involved": [
+                        "http://localhost:8080/corpus/id/34/prov/cr/2", 
+                        "http://localhost:8080/corpus/id/34/prov/cr/1"
+                    ], 
+                    "label": "curatorial activity 1 related to identifier 34 [ca/1 -> id/34]", 
+                    "description": "The entity 'http://localhost:8080/corpus/id/34' has been created.", 
+                    "iri": "http://localhost:8080/corpus/id/34/prov/ca/1"
+                }
+            ]
+        }
+    ]
+}

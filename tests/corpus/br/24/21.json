@@ -1,0 +1,59 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "a": [
+                "document", 
+                "periodical_journal"
+            ], 
+            "iri": "http://localhost:8080/corpus/br/19", 
+            "identifier": [
+                "http://localhost:8080/corpus/id/28", 
+                "http://localhost:8080/corpus/id/29"
+            ], 
+            "title": "Future Medicinal Chemistry", 
+            "label": "bibliographic resource 19 [br/19]"
+        }, 
+        {
+            "a": [
+                "periodical_volume", 
+                "document"
+            ], 
+            "iri": "http://localhost:8080/corpus/br/20", 
+            "part_of": "http://localhost:8080/corpus/br/19", 
+            "number": "4", 
+            "label": "bibliographic resource 20 [br/20]"
+        }, 
+        {
+            "a": [
+                "article", 
+                "document"
+            ], 
+            "part_of": "http://localhost:8080/corpus/br/22", 
+            "format": "http://localhost:8080/corpus/re/6", 
+            "title": "Investigation on the ZBG-functionality of phenyl-4-yl-acrylohydroxamic acid derivatives as histone deacetylase inhibitors", 
+            "label": "bibliographic resource 21 [br/21]", 
+            "iri": "http://localhost:8080/corpus/br/21", 
+            "year": "2015", 
+            "contributor": [
+                "http://localhost:8080/corpus/ar/49", 
+                "http://localhost:8080/corpus/ar/44", 
+                "http://localhost:8080/corpus/ar/42", 
+                "http://localhost:8080/corpus/ar/45", 
+                "http://localhost:8080/corpus/ar/46", 
+                "http://localhost:8080/corpus/ar/43", 
+                "http://localhost:8080/corpus/ar/48", 
+                "http://localhost:8080/corpus/ar/47", 
+                "http://localhost:8080/corpus/ar/51", 
+                "http://localhost:8080/corpus/ar/50", 
+                "http://localhost:8080/corpus/ar/41"
+            ], 
+            "identifier": [
+                "http://localhost:8080/corpus/id/30", 
+                "http://localhost:8080/corpus/id/31", 
+                "http://localhost:8080/corpus/id/34"
+            ]
+        }
+    ], 
+    "iri": "http://localhost:8080/corpus/br/"
+}

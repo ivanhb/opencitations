@@ -1,0 +1,47 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "iri": "http://localhost:8080/corpus/re/3/prov/", 
+            "@graph": [
+                {
+                    "a": "metadata_snapshot", 
+                    "snapshot_of": "http://localhost:8080/corpus/re/3", 
+                    "generated_by": "http://localhost:8080/corpus/re/3/prov/ca/1", 
+                    "label": "snapshot of entity metadata 1 related to resource embodiment 3 [se/1 -> re/3]", 
+                    "iri": "http://localhost:8080/corpus/re/3/prov/se/1", 
+                    "generated": "2016-12-11T23:39:09", 
+                    "source": "http://api.crossref.org/works/10.1097/01.aog.0000255980.88205.15"
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/re/2/prov/", 
+            "@graph": [
+                {
+                    "a": "metadata_snapshot", 
+                    "snapshot_of": "http://localhost:8080/corpus/re/2", 
+                    "generated_by": "http://localhost:8080/corpus/re/2/prov/ca/1", 
+                    "label": "snapshot of entity metadata 1 related to resource embodiment 2 [se/1 -> re/2]", 
+                    "iri": "http://localhost:8080/corpus/re/2/prov/se/1", 
+                    "generated": "2016-12-11T23:39:09", 
+                    "source": "http://api.crossref.org/works?rows=1&query=WHO.%20GLOBOCAN%202012%2C%20Estimated%20cancer%20incidence%2C%20mortality%20and%20prevalence%20worldwide%20in%202012.%202012%3B%20http%2C//globocan.iarc.fr/Pages/fact_sheets_population.aspx%20%283%20April%202015%2C%20date%20last%20accessed%29."
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/re/1/prov/", 
+            "@graph": [
+                {
+                    "a": "metadata_snapshot", 
+                    "snapshot_of": "http://localhost:8080/corpus/re/1", 
+                    "generated_by": "http://localhost:8080/corpus/re/1/prov/ca/1", 
+                    "label": "snapshot of entity metadata 1 related to resource embodiment 1 [se/1 -> re/1]", 
+                    "iri": "http://localhost:8080/corpus/re/1/prov/se/1", 
+                    "generated": "2016-12-11T23:39:09", 
+                    "source": "http://api.crossref.org/works/10.1097/igc.0000000000000609"
+                }
+            ]
+        }
+    ]
+}

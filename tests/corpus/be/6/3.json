@@ -1,0 +1,27 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "a": "entry", 
+            "content": "Lee, NK, Cheung, MK, Shin, JY. Prognostic factors for uterine cancer in reproductive-aged women. Obstet Gynecol. 2007; 109: 655\u2013662. PMID: 17329517", 
+            "label": "bibliographic entry 2 [be/2]", 
+            "iri": "http://localhost:8080/corpus/be/2", 
+            "crossref": "http://localhost:8080/corpus/br/9"
+        }, 
+        {
+            "a": "entry", 
+            "content": "Giannini, G, Cabri, W, Fattorusso, C, Rodriquez, M. Histone deacetylase inhibitors in the treatment of cancer: overview and perspectives, Future Med. Chem-, Target. Oncol, 2012, 4, 1439, 1460", 
+            "label": "bibliographic entry 3 [be/3]", 
+            "iri": "http://localhost:8080/corpus/be/3", 
+            "crossref": "http://localhost:8080/corpus/br/17"
+        }, 
+        {
+            "a": "entry", 
+            "content": "WHO. GLOBOCAN 2012: Estimated cancer incidence, mortality and prevalence worldwide in 2012. 2012; http://globocan.iarc.fr/Pages/fact_sheets_population.aspx (3 April 2015, date last accessed).", 
+            "label": "bibliographic entry 1 [be/1]", 
+            "iri": "http://localhost:8080/corpus/be/1", 
+            "crossref": "http://localhost:8080/corpus/br/5"
+        }
+    ], 
+    "iri": "http://localhost:8080/corpus/be/"
+}

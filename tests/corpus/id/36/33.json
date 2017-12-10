@@ -1,0 +1,27 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "a": "unique_identifier", 
+            "iri": "http://localhost:8080/corpus/id/32", 
+            "type": "url", 
+            "id": "http://id.crossref.org/member/78", 
+            "label": "identifier 32 [id/32]"
+        }, 
+        {
+            "a": "unique_identifier", 
+            "iri": "http://localhost:8080/corpus/id/33", 
+            "type": "issn", 
+            "id": "0960-894X", 
+            "label": "identifier 33 [id/33]"
+        }, 
+        {
+            "a": "unique_identifier", 
+            "iri": "http://localhost:8080/corpus/id/31", 
+            "type": "url", 
+            "id": "http://dx.doi.org/10.1016/j.bmcl.2015.09.006", 
+            "label": "identifier 31 [id/31]"
+        }
+    ], 
+    "iri": "http://localhost:8080/corpus/id/"
+}

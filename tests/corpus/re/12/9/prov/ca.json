@@ -1,0 +1,19 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "a": [
+                "curatorial_activity", 
+                "creation"
+            ], 
+            "involved": [
+                "http://localhost:8080/corpus/re/7/prov/cr/2", 
+                "http://localhost:8080/corpus/re/7/prov/cr/1"
+            ], 
+            "label": "curatorial activity 1 related to resource embodiment 7 [ca/1 -> re/7]", 
+            "description": "The entity 'http://localhost:8080/corpus/re/7' has been created.", 
+            "iri": "http://localhost:8080/corpus/re/7/prov/ca/1"
+        }
+    ], 
+    "iri": "http://localhost:8080/corpus/re/7/prov/"
+}

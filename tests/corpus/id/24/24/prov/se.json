@@ -1,0 +1,47 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "iri": "http://localhost:8080/corpus/id/22/prov/", 
+            "@graph": [
+                {
+                    "a": "metadata_snapshot", 
+                    "snapshot_of": "http://localhost:8080/corpus/id/22", 
+                    "generated_by": "http://localhost:8080/corpus/id/22/prov/ca/1", 
+                    "label": "snapshot of entity metadata 1 related to identifier 22 [se/1 -> id/22]", 
+                    "iri": "http://localhost:8080/corpus/id/22/prov/se/1", 
+                    "generated": "2016-12-11T23:39:20", 
+                    "source": "http://www.ebi.ac.uk/europepmc/webservices/rest/PMC5101637/fullTextXML"
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/id/23/prov/", 
+            "@graph": [
+                {
+                    "a": "metadata_snapshot", 
+                    "snapshot_of": "http://localhost:8080/corpus/id/23", 
+                    "generated_by": "http://localhost:8080/corpus/id/23/prov/ca/1", 
+                    "label": "snapshot of entity metadata 1 related to identifier 23 [se/1 -> id/23]", 
+                    "iri": "http://localhost:8080/corpus/id/23/prov/se/1", 
+                    "generated": "2016-12-11T23:39:20", 
+                    "source": "https://pub.orcid.org/v1.2/search/orcid-bio/?q=digital-object-ids%3A%2210.4155/fmc.12.80%22%20AND%20%28family-name%3A%22Giannini%22%20OR%20family-name%3A%22Cabri%22%20OR%20family-name%3A%22Fattorusso%22%20OR%20family-name%3A%22Rodriquez%22%29"
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/id/24/prov/", 
+            "@graph": [
+                {
+                    "a": "metadata_snapshot", 
+                    "snapshot_of": "http://localhost:8080/corpus/id/24", 
+                    "generated_by": "http://localhost:8080/corpus/id/24/prov/ca/1", 
+                    "label": "snapshot of entity metadata 1 related to identifier 24 [se/1 -> id/24]", 
+                    "iri": "http://localhost:8080/corpus/id/24/prov/se/1", 
+                    "generated": "2016-12-11T23:39:20", 
+                    "source": "https://pub.orcid.org/v1.2/search/orcid-bio/?q=digital-object-ids%3A%2210.4155/fmc.12.80%22%20AND%20%28family-name%3A%22Giannini%22%20OR%20family-name%3A%22Cabri%22%20OR%20family-name%3A%22Fattorusso%22%20OR%20family-name%3A%22Rodriquez%22%29"
+                }
+            ]
+        }
+    ]
+}

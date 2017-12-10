@@ -1,0 +1,54 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "a": [
+                "document", 
+                "article"
+            ], 
+            "part_of": "http://localhost:8080/corpus/br/26", 
+            "format": "http://localhost:8080/corpus/re/7", 
+            "title": "Romidepsin (Istodax, NSC 630176, FR901228, FK228, depsipeptide): a natural product recently approved for cutaneous T-cell lymphoma", 
+            "label": "bibliographic resource 25 [br/25]", 
+            "iri": "http://localhost:8080/corpus/br/25", 
+            "year": "2011", 
+            "contributor": [
+                "http://localhost:8080/corpus/ar/55", 
+                "http://localhost:8080/corpus/ar/52", 
+                "http://localhost:8080/corpus/ar/53", 
+                "http://localhost:8080/corpus/ar/54", 
+                "http://localhost:8080/corpus/ar/56"
+            ], 
+            "identifier": [
+                "http://localhost:8080/corpus/id/42", 
+                "http://localhost:8080/corpus/id/35", 
+                "http://localhost:8080/corpus/id/41", 
+                "http://localhost:8080/corpus/id/37"
+            ]
+        }, 
+        {
+            "a": [
+                "document", 
+                "periodical_issue"
+            ], 
+            "iri": "http://localhost:8080/corpus/br/26", 
+            "part_of": "http://localhost:8080/corpus/br/28", 
+            "number": "8", 
+            "label": "bibliographic resource 26 [br/26]"
+        }, 
+        {
+            "a": [
+                "document", 
+                "periodical_journal"
+            ], 
+            "iri": "http://localhost:8080/corpus/br/27", 
+            "identifier": [
+                "http://localhost:8080/corpus/id/40", 
+                "http://localhost:8080/corpus/id/39"
+            ], 
+            "title": "The Journal of Antibiotics", 
+            "label": "bibliographic resource 27 [br/27]"
+        }
+    ], 
+    "iri": "http://localhost:8080/corpus/br/"
+}

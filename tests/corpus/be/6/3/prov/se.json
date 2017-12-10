@@ -1,0 +1,47 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "iri": "http://localhost:8080/corpus/be/3/prov/", 
+            "@graph": [
+                {
+                    "a": "metadata_snapshot", 
+                    "snapshot_of": "http://localhost:8080/corpus/be/3", 
+                    "generated_by": "http://localhost:8080/corpus/be/3/prov/ca/1", 
+                    "label": "snapshot of entity metadata 1 related to bibliographic entry 3 [se/1 -> be/3]", 
+                    "iri": "http://localhost:8080/corpus/be/3/prov/se/1", 
+                    "generated": "2016-12-11T23:39:20", 
+                    "source": "http://www.ebi.ac.uk/europepmc/webservices/rest/PMC5101637/fullTextXML"
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/be/2/prov/", 
+            "@graph": [
+                {
+                    "a": "metadata_snapshot", 
+                    "snapshot_of": "http://localhost:8080/corpus/be/2", 
+                    "generated_by": "http://localhost:8080/corpus/be/2/prov/ca/1", 
+                    "label": "snapshot of entity metadata 1 related to bibliographic entry 2 [se/1 -> be/2]", 
+                    "iri": "http://localhost:8080/corpus/be/2/prov/se/1", 
+                    "generated": "2016-12-11T23:39:09", 
+                    "source": "http://www.ebi.ac.uk/europepmc/webservices/rest/PMC4679344/fullTextXML"
+                }
+            ]
+        }, 
+        {
+            "iri": "http://localhost:8080/corpus/be/1/prov/", 
+            "@graph": [
+                {
+                    "a": "metadata_snapshot", 
+                    "snapshot_of": "http://localhost:8080/corpus/be/1", 
+                    "generated_by": "http://localhost:8080/corpus/be/1/prov/ca/1", 
+                    "label": "snapshot of entity metadata 1 related to bibliographic entry 1 [se/1 -> be/1]", 
+                    "iri": "http://localhost:8080/corpus/be/1/prov/se/1", 
+                    "generated": "2016-12-11T23:39:09", 
+                    "source": "http://www.ebi.ac.uk/europepmc/webservices/rest/PMC4679344/fullTextXML"
+                }
+            ]
+        }
+    ]
+}

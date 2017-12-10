@@ -1,0 +1,27 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "a": "unique_identifier", 
+            "iri": "http://localhost:8080/corpus/id/37", 
+            "type": "url", 
+            "id": "http://dx.doi.org/10.1038/ja.2011.35", 
+            "label": "identifier 37 [id/37]"
+        }, 
+        {
+            "a": "unique_identifier", 
+            "iri": "http://localhost:8080/corpus/id/38", 
+            "type": "url", 
+            "id": "http://id.crossref.org/member/339", 
+            "label": "identifier 38 [id/38]"
+        }, 
+        {
+            "a": "unique_identifier", 
+            "iri": "http://localhost:8080/corpus/id/39", 
+            "type": "issn", 
+            "id": "0021-8820", 
+            "label": "identifier 39 [id/39]"
+        }
+    ], 
+    "iri": "http://localhost:8080/corpus/id/"
+}

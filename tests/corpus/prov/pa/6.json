@@ -1,0 +1,12 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "a": "provenance_agent", 
+            "iri": "http://localhost:8080/corpus/prov/pa/6", 
+            "name": "ORCID", 
+            "label": "provenance agent 6 [pa/6]"
+        }
+    ], 
+    "iri": "http://localhost:8080/corpus/prov/"
+}

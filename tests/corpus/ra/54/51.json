@@ -1,0 +1,27 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "a": "agent", 
+            "iri": "http://localhost:8080/corpus/ra/49", 
+            "label": "responsible agent 49 [ra/49]", 
+            "fname": "Dallavalle", 
+            "gname": "Sabrina"
+        }, 
+        {
+            "a": "agent", 
+            "iri": "http://localhost:8080/corpus/ra/50", 
+            "identifier": "http://localhost:8080/corpus/id/32", 
+            "name": "Elsevier BV", 
+            "label": "responsible agent 50 [ra/50]"
+        }, 
+        {
+            "a": "agent", 
+            "iri": "http://localhost:8080/corpus/ra/51", 
+            "label": "responsible agent 51 [ra/51]", 
+            "fname": "VanderMolen", 
+            "gname": "Karen M"
+        }
+    ], 
+    "iri": "http://localhost:8080/corpus/ra/"
+}

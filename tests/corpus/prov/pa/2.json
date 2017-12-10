@@ -1,0 +1,12 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "a": "provenance_agent", 
+            "iri": "http://localhost:8080/corpus/prov/pa/2", 
+            "name": "Crossref", 
+            "label": "provenance agent 2 [pa/2]"
+        }
+    ], 
+    "iri": "http://localhost:8080/corpus/prov/"
+}

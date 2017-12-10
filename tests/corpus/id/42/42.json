@@ -1,0 +1,27 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "a": "unique_identifier", 
+            "iri": "http://localhost:8080/corpus/id/42", 
+            "type": "pmcid", 
+            "id": "PMC3163831", 
+            "label": "identifier 42 [id/42]"
+        }, 
+        {
+            "a": "unique_identifier", 
+            "iri": "http://localhost:8080/corpus/id/41", 
+            "type": "pmid", 
+            "id": "21587264", 
+            "label": "identifier 41 [id/41]"
+        }, 
+        {
+            "a": "unique_identifier", 
+            "iri": "http://localhost:8080/corpus/id/40", 
+            "type": "issn", 
+            "id": "1881-1469", 
+            "label": "identifier 40 [id/40]"
+        }
+    ], 
+    "iri": "http://localhost:8080/corpus/id/"
+}

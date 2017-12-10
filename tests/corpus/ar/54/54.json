@@ -1,0 +1,30 @@
+{
+    "@context": "https://w3id.org/oc/corpus/context.json", 
+    "@graph": [
+        {
+            "a": "role", 
+            "role_of": "http://localhost:8080/corpus/ra/51", 
+            "next": "http://localhost:8080/corpus/ar/53", 
+            "iri": "http://localhost:8080/corpus/ar/52", 
+            "label": "agent role 52 [ar/52]", 
+            "role_type": "author"
+        }, 
+        {
+            "a": "role", 
+            "role_of": "http://localhost:8080/corpus/ra/52", 
+            "next": "http://localhost:8080/corpus/ar/54", 
+            "iri": "http://localhost:8080/corpus/ar/53", 
+            "label": "agent role 53 [ar/53]", 
+            "role_type": "author"
+        }, 
+        {
+            "a": "role", 
+            "role_of": "http://localhost:8080/corpus/ra/53", 
+            "next": "http://localhost:8080/corpus/ar/55", 
+            "iri": "http://localhost:8080/corpus/ar/54", 
+            "label": "agent role 54 [ar/54]", 
+            "role_type": "author"
+        }
+    ], 
+    "iri": "http://localhost:8080/corpus/ar/"
+}
