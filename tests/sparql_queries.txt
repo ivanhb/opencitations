@@ -1,0 +1,21 @@
+Query Index : 
+
+// from the iri of the br resource get the authors names
+OPTIONAL {
+          ?my_iri pro:isDocumentContextFor [
+              pro:withRole pro:author ;
+              pro:isHeldBy ?author_iri 
+          ].
+          ?author_iri foaf:familyName ?fname .
+          ?author_iri foaf:givenName ?name .
+          BIND(CONCAT(STR(?name),' ', STR(?fname)) as ?author) .
+}
+
+// from the iri of the br resource get the DOI id
+OPTIONAL {
+    	?my_iri datacite:hasIdentifier [
+    		datacite:usesIdentifierScheme datacite:doi ;
+			literal:hasLiteralValue ?id_lit 
+      	]
+}
+ 

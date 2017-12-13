@@ -1,0 +1,24 @@
+SELECT ?my_iri ?id_lit ?type ?label ?title ?subtitle ?year ?author_iri ?author (COUNT(?cited) AS ?num_cited) WHERE {
+	BIND(<https://w3id.org/oc/corpus/br/1> as ?my_iri) .
+	?my_iri rdfs:label ?label .
+	?my_iri rdf:type ?type .
+	OPTIONAL {?my_iri dcterms:title ?title .}
+	OPTIONAL {?my_iri fabio:hasSubtitle ?subtitle .}
+	OPTIONAL {?my_iri fabio:hasPublicationYear ?year .}
+	OPTIONAL {?my_iri cito:cites ?cited .}
+  	OPTIONAL {
+    		?my_iri datacite:hasIdentifier [
+    		datacite:usesIdentifierScheme datacite:doi ;
+			literal:hasLiteralValue ?id_lit 
+      		]
+  	}
+  	OPTIONAL {
+          ?my_iri pro:isDocumentContextFor [
+              pro:withRole pro:author ;
+              pro:isHeldBy ?author_iri 
+          ].
+          ?author_iri foaf:familyName ?fname .
+          ?author_iri foaf:givenName ?name .
+          BIND(CONCAT(STR(?name),' ', STR(?fname)) as ?author) .
+  	}
+} GROUP BY ?my_iri ?id_lit ?type ?label ?title ?subtitle ?year ?author_iri ?author
