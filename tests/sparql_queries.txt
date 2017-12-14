@@ -19,3 +19,8 @@ OPTIONAL {
       	]
 }
  
+
+
+// given a free text value in ?lit retrieve the doc (/br/) of it
+?bib_entry c4o:hasContent ?lit .
+?bib_entry biro:references ?bib_reference .

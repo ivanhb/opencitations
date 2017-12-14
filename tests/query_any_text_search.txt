@@ -1,0 +1,28 @@
+SELECT DISTINCT ?doc ?title ?year ?author ?author_iri (COUNT(?cited) AS ?num_cited) where {
+  		  
+		?lit bds:search <VAR> . 
+		?lit bds:matchAllTerms 'true' . 
+  		?lit bds:relevance ?score . 
+  		?lit bds:minRelevance '0.25' .
+		?bib_entry c4o:hasContent ?lit .
+		?bib_entry biro:references ?doc .
+  		  
+  		BIND(<https://w3id.org/oc/corpus/br/1> as ?doc) .
+  			  
+  		  OPTIONAL {
+              ?doc dcterms:title ?title .
+              ?doc fabio:hasSubtitle ?subtitle .
+              ?doc fabio:hasPublicationYear ?year .
+              ?doc cito:cites ?cited .
+          }
+
+          OPTIONAL {
+                ?doc pro:isDocumentContextFor [
+                    pro:withRole pro:author ;
+                    pro:isHeldBy ?author_iri 
+                ].
+                ?author_iri foaf:familyName ?fname .
+                ?author_iri foaf:givenName ?name .
+                BIND(CONCAT(STR(?name),' ', STR(?fname)) as ?author) .
+          }
+} GROUP BY ?doc ?title ?year ?author ?author_iri
