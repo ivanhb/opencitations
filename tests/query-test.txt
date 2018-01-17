@@ -1,13 +1,28 @@
-SELECT DISTINCT ?country ?countryLabel ?capital ?capitalLabel
-WHERE
-{
-  ?country wdt:P31 wd:Q3624078 .
-  #not a former country
-  FILTER NOT EXISTS {?country wdt:P31 wd:Q3024240}
-  #and no an ancient civilisation (needed to exclude ancient Egypt)
-  FILTER NOT EXISTS {?country wdt:P31 wd:Q28171280}
-  OPTIONAL { ?country wdt:P36 ?capital } .
+<div class='adv-search'>
 
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
-}
-ORDER BY ?countryLabel
+                      <div class="adv-search-nav">
+                        <ul class='nav pages-nav'>
+                          <li class="active"><a href=''>Document</a></li>
+                          <li><a href=''>Author</a></li>
+                        </ul>
+                      </div>
+
+                      <div class='adv-search-body'>
+                        <div class='adv-search-input'>
+                          <form class='input-group search-box' action='search' method='get'>
+                            <input type='text' class='form-control oc-purple' placeholder='Search...' name='text'>
+                          </form>
+                        </div>
+                        <div class='adv-search-selector'>
+                          <select class='form-control input custom' onchange='' id='sort_box_input'>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class='adv-search-footer'>
+                        <div class='input-group-btn'>
+                          <button class='btn btn-default oc-purple' type='submit'> <span class='search-btn-text'> Search inside OC </span><i class='glyphicon glyphicon-search large-icon'></i></button>
+                        </div>
+                      </div>
+
+                  </div>
