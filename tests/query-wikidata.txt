@@ -1,0 +1,40 @@
+select ?work ?title ?venueLabel ?date ?volume ?issue ?pages
+       ?license ?doi ?url ?type where {
+  ?work wdt:P50 wd:Q28923929 .
+  ?work wdt:P1476 ?title .
+  optional { ?work wdt:P31 ?type . }
+  optional { ?work wdt:P1433 ?venue . }
+  optional { ?work wdt:P577 ?date . }
+  optional { ?work wdt:P478 ?volume . }
+  optional { ?work wdt:P433 ?issue . }
+  optional { ?work wdt:P304 ?pages . }
+  optional { ?work wdt:P275 ?license_ .
+              ?license_ rdfs:label ?license .
+              filter(lang(?license) = 'en') }
+  optional { ?work wdt:P356 ?doi . }
+  optional { ?work wdt:P953 ?url . }
+  service wikibase:label {
+    bd:serviceParam wikibase:language "en,da,no,sv,de,fr,es,ru,jp,ru,zh" . }
+}
+order by desc(?date)
+
+
+#With DOI
+select ?work ?title ?venueLabel ?date ?volume ?issue ?pages
+       ?license ?doi ?url ?type where {
+  ?work wdt:P356 "10.1093/IRAP/LCR020" .
+  ?work wdt:P1476 ?title .
+  optional { ?work wdt:P31 ?type . }
+  optional { ?work wdt:P1433 ?venue . }
+  optional { ?work wdt:P577 ?date . }
+  optional { ?work wdt:P478 ?volume . }
+  optional { ?work wdt:P433 ?issue . }
+  optional { ?work wdt:P304 ?pages . }
+  optional { ?work wdt:P275 ?license_ .
+              ?license_ rdfs:label ?license .
+              filter(lang(?license) = 'en') }
+  optional { ?work wdt:P356 ?doi . }
+  optional { ?work wdt:P953 ?url . }
+  service wikibase:label {
+    bd:serviceParam wikibase:language "en,da,no,sv,de,fr,es,ru,jp,ru,zh" . }
+}

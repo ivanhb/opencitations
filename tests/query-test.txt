@@ -1,6 +1,5 @@
-select ?work ?title ?venueLabel ?date ?volume ?issue ?pages
-       ?license ?doi ?url ?type where {
-  ?work wdt:P50 wd:Q28923929 .
+select ?work ?title ?venueLabel ?date ?volume ?issue ?pages ?license ?doi ?url ?type where {
+  ?work wdt:P356 "10.1093/IRAP/LCR020" .
   ?work wdt:P1476 ?title .
   optional { ?work wdt:P31 ?type . }
   optional { ?work wdt:P1433 ?venue . }
@@ -16,4 +15,3 @@ select ?work ?title ?venueLabel ?date ?volume ?issue ?pages
   service wikibase:label {
     bd:serviceParam wikibase:language "en,da,no,sv,de,fr,es,ru,jp,ru,zh" . }
 }
-order by desc(?date)
