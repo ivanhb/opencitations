@@ -1,28 +1,19 @@
-<div class='adv-search'>
-
-                      <div class="adv-search-nav">
-                        <ul class='nav pages-nav'>
-                          <li class="active"><a href=''>Document</a></li>
-                          <li><a href=''>Author</a></li>
-                        </ul>
-                      </div>
-
-                      <div class='adv-search-body'>
-                        <div class='adv-search-input'>
-                          <form class='input-group search-box' action='search' method='get'>
-                            <input type='text' class='form-control oc-purple' placeholder='Search...' name='text'>
-                          </form>
-                        </div>
-                        <div class='adv-search-selector'>
-                          <select class='form-control input custom' onchange='' id='sort_box_input'>
-                          </select>
-                        </div>
-                      </div>
-
-                      <div class='adv-search-footer'>
-                        <div class='input-group-btn'>
-                          <button class='btn btn-default oc-purple' type='submit'> <span class='search-btn-text'> Search inside OC </span><i class='glyphicon glyphicon-search large-icon'></i></button>
-                        </div>
-                      </div>
-
-                  </div>
+select ?work ?title ?venueLabel ?date ?volume ?issue ?pages
+       ?license ?doi ?url ?type where {
+  ?work wdt:P50 wd:Q28923929 .
+  ?work wdt:P1476 ?title .
+  optional { ?work wdt:P31 ?type . }
+  optional { ?work wdt:P1433 ?venue . }
+  optional { ?work wdt:P577 ?date . }
+  optional { ?work wdt:P478 ?volume . }
+  optional { ?work wdt:P433 ?issue . }
+  optional { ?work wdt:P304 ?pages . }
+  optional { ?work wdt:P275 ?license_ .
+              ?license_ rdfs:label ?license .
+              filter(lang(?license) = 'en') }
+  optional { ?work wdt:P356 ?doi . }
+  optional { ?work wdt:P953 ?url . }
+  service wikibase:label {
+    bd:serviceParam wikibase:language "en,da,no,sv,de,fr,es,ru,jp,ru,zh" . }
+}
+order by desc(?date)
