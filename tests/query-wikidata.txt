@@ -38,3 +38,23 @@ select ?work ?title ?venueLabel ?date ?volume ?issue ?pages
   service wikibase:label {
     bd:serviceParam wikibase:language "en,da,no,sv,de,fr,es,ru,jp,ru,zh" . }
 }
+
+
+#With ORCID
+select ?author ?lblname ?lblfname ?lblcountry where { 
+   ?author wdt:P496 '0000-0003-0530-4305' .
+   optional{ 
+     ?author wdt:P734 ?fname .
+     ?fname wdt:P1705 ?lblfname .  
+  }
+  optional{ 
+     ?author wdt:P735 ?name .
+     ?name wdt:P1705 ?lblname .  
+  }
+  optional{
+      ?author wdt:P27 ?country .
+      ?country wdt:P1705 ?lblcountry .  
+  }  
+  service wikibase:label {
+              bd:serviceParam wikibase:language 'en,da,no,sv,de,fr,es,ru,jp,ru,zh' . }
+}
