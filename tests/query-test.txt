@@ -1,13 +1,51 @@
-                  <div id="search_extra" class="search_extra"></div>
-                  <div id="search_header" class="search-header">
-                    <div id="rows_per_page"></div>
-                    <div id="sort_results"></div>
-                  </div>
-                  <div id="search_body" class="search-body">
-                    <div id="search_filters" class="search-filters">
-                      <div id="limit_results"></div>
-                      <div id="filter_btns"></div>
-                      <div id="filter_values_list"></div>
-                    </div>
-                    <div id="search_results" class="search-results"></div>
-                  </div>
+"SELECT DISTINCT ?iri ?short_iri ?doi ?title ?year ?score ?author ?author_iri (COUNT(distinct ?cited) AS ?out_cits) (COUNT(distinct ?cited_by) AS ?in_cits)",
+            "WHERE  {",
+              "BIND('[[VAR]]' as ?free_txt) .",
+              "?lit bds:search ?free_txt .",
+              "?lit bds:matchAllTerms 'true' .",
+              "?lit bds:relevance ?score .",
+              "?lit bds:minRelevance '0.2' .",
+              "?lit bds:maxRank '300' .",
+            "",
+              "{",
+                "?entry c4o:hasContent ?lit .",
+                "?entry biro:references ?iri .",
+              "}",
+              "UNION",
+              "{?iri dcterms:title  ?lit }",
+              "UNION",
+              "{?iri fabio:hasSubtitle ?lit}",
+              "UNION",
+              "{",
+                "?myra foaf:familyName ?lit .",
+             "?role pro:isHeldBy ?myra .",
+             "?iri pro:isDocumentContextFor ?role .",
+              "}",
+              ".",
+            "",
+              "OPTIONAL {",
+                "?iri rdf:type ?type .",
+                "BIND(REPLACE(STR(?iri), 'https://w3id.org/oc/corpus', '', 'i') as ?short_iri) .",
+                "OPTIONAL {?iri dcterms:title  ?title .}",
+                "OPTIONAL {?iri fabio:hasSubtitle  ?subtitle .}",
+                "OPTIONAL {?iri fabio:hasPublicationYear ?year .}",
+                "OPTIONAL {?iri cito:cites ?cited .}",
+                "OPTIONAL {?cited_by cito:cites ?iri .}",
+                "OPTIONAL {",
+                 "?iri datacite:hasIdentifier [",
+                  "datacite:usesIdentifierScheme datacite:doi ;",
+               "literal:hasLiteralValue ?doi",
+                   "]",
+               "}",
+            "",
+               "OPTIONAL {",
+                     "?iri pro:isDocumentContextFor [",
+                         "pro:withRole pro:author ;",
+                         "pro:isHeldBy ?author_iri",
+                     "].",
+                     "?author_iri foaf:familyName ?fname .",
+                     "?author_iri foaf:givenName ?name .",
+                     "BIND(CONCAT(STR(?name),' ', STR(?fname)) as ?author) .",
+               "}",
+              "}",
+"}GROUP BY ?iri ?short_iri ?doi ?title ?year ?score ?author ?author_iri"
