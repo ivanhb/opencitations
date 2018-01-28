@@ -1,51 +1,28 @@
-"SELECT DISTINCT ?iri ?short_iri ?doi ?title ?year ?score ?author ?author_iri (COUNT(distinct ?cited) AS ?out_cits) (COUNT(distinct ?cited_by) AS ?in_cits)",
-            "WHERE  {",
-              "BIND('[[VAR]]' as ?free_txt) .",
-              "?lit bds:search ?free_txt .",
-              "?lit bds:matchAllTerms 'true' .",
-              "?lit bds:relevance ?score .",
-              "?lit bds:minRelevance '0.2' .",
-              "?lit bds:maxRank '300' .",
-            "",
-              "{",
-                "?entry c4o:hasContent ?lit .",
-                "?entry biro:references ?iri .",
-              "}",
-              "UNION",
-              "{?iri dcterms:title  ?lit }",
-              "UNION",
-              "{?iri fabio:hasSubtitle ?lit}",
-              "UNION",
-              "{",
-                "?myra foaf:familyName ?lit .",
-             "?role pro:isHeldBy ?myra .",
-             "?iri pro:isDocumentContextFor ?role .",
-              "}",
-              ".",
-            "",
-              "OPTIONAL {",
-                "?iri rdf:type ?type .",
-                "BIND(REPLACE(STR(?iri), 'https://w3id.org/oc/corpus', '', 'i') as ?short_iri) .",
-                "OPTIONAL {?iri dcterms:title  ?title .}",
-                "OPTIONAL {?iri fabio:hasSubtitle  ?subtitle .}",
-                "OPTIONAL {?iri fabio:hasPublicationYear ?year .}",
-                "OPTIONAL {?iri cito:cites ?cited .}",
-                "OPTIONAL {?cited_by cito:cites ?iri .}",
-                "OPTIONAL {",
-                 "?iri datacite:hasIdentifier [",
-                  "datacite:usesIdentifierScheme datacite:doi ;",
-               "literal:hasLiteralValue ?doi",
-                   "]",
-               "}",
-            "",
-               "OPTIONAL {",
-                     "?iri pro:isDocumentContextFor [",
-                         "pro:withRole pro:author ;",
-                         "pro:isHeldBy ?author_iri",
-                     "].",
-                     "?author_iri foaf:familyName ?fname .",
-                     "?author_iri foaf:givenName ?name .",
-                     "BIND(CONCAT(STR(?name),' ', STR(?fname)) as ?author) .",
-               "}",
-              "}",
-"}GROUP BY ?iri ?short_iri ?doi ?title ?year ?score ?author ?author_iri"
+select ?work ?title ?venueLabel ?date ?volume ?author ?authorname ?issue ?pages ?license ?doi ?url ?type where {  
+
+{
+  FILTER( regex(?lbl1, "test" ))
+  ?work wdt:P1476 ?lbl1 .
+}
+UNION
+{
+  FILTER( regex(?lbl2, "Patrick" ))
+  ?work wdt:P50/rdfs:label ?lbl2 .
+}
+
+?work wdt:P31 wd:Q13442814.
+optional { ?work wdt:P1476 ?title .}
+optional { 
+  ?work wdt:P50 ?author .
+  ?author rdfs:label ?authorname . 
+}
+optional { ?work wdt:P1433 ?venue . }
+optional { ?work wdt:P577 ?date . }
+optional { ?work wdt:P478 ?volume . }
+optional { ?work wdt:P433 ?issue . }
+optional { ?work wdt:P304 ?pages . }
+optional { ?work wdt:P275 ?license_ .}
+optional { ?work wdt:P356 ?doi . }
+optional { ?work wdt:P953 ?url . }
+} 
+LIMIT 100
