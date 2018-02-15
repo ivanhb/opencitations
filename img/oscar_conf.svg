@@ -55,10 +55,10 @@
                 </text>
                 <text id="Array-of-Object" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="normal" fill="#000000">
                     <tspan x="7" y="22">Array of Object</tspan>
-                    <tspan x="7" y="44">{</tspan>
+                    <tspan x="7" y="44">[</tspan>
                 </text>
-                <text id="-}" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="3" y="178"> }</tspan>
+                <text id="-]" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="4" y="178"> ]</tspan>
                 </text>
                 <path d="M161.75,56.5 L161.75,163.5" id="Line" stroke="#979797" stroke-width="1.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
             </g>
@@ -76,10 +76,10 @@
                 </text>
                 <text id="Array-of-Object" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="normal" fill="#000000">
                     <tspan x="7" y="22">Array of Object</tspan>
-                    <tspan x="7" y="44">{</tspan>
+                    <tspan x="7" y="44">[</tspan>
                 </text>
-                <text id="-}" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="3" y="178"> }</tspan>
+                <text id="-]" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="3" y="178"> ]</tspan>
                 </text>
                 <path d="M164.75,56.5 L164.75,163.5" id="Line" stroke="#979797" stroke-width="1.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
             </g>
@@ -167,10 +167,10 @@
                 </text>
                 <text id="Array-of-Object" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="normal" fill="#000000">
                     <tspan x="7" y="22">Array of Object</tspan>
-                    <tspan x="7" y="44">{</tspan>
+                    <tspan x="7" y="44">[</tspan>
                 </text>
-                <text id="-}" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="3" y="178"> }</tspan>
+                <text id="-]" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="3" y="178"> ]</tspan>
                 </text>
                 <path d="M176.75,54.5 L176.75,161.5" id="Line" stroke="#979797" stroke-width="1.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
             </g>
@@ -188,10 +188,10 @@
                 </text>
                 <text id="Array-of-Object" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="normal" fill="#000000">
                     <tspan x="6" y="22">Array of Object</tspan>
-                    <tspan x="6" y="44">{</tspan>
+                    <tspan x="6" y="44">[</tspan>
                 </text>
-                <text id="-}" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="3" y="178"> }</tspan>
+                <text id="-]" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="4" y="178"> ]</tspan>
                 </text>
                 <path d="M155.5,54.5 L155.5,161.5" id="Line" stroke="#979797" stroke-width="1.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
             </g>

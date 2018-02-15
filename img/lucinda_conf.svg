@@ -215,10 +215,10 @@
                 </text>
                 <text id="Array-of-Object" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="normal" fill="#000000">
                     <tspan x="7" y="22">Array of Object</tspan>
-                    <tspan x="7" y="44">{</tspan>
+                    <tspan x="7" y="44">[</tspan>
                 </text>
-                <text id="-}" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="normal" fill="#000000">
-                    <tspan x="3" y="178"> }</tspan>
+                <text id="-]" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="normal" fill="#000000">
+                    <tspan x="3" y="178"> ]</tspan>
                 </text>
                 <path d="M161.75,56.5 L161.75,163.5" id="Line" stroke="#979797" stroke-width="1.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
             </g>
