@@ -7,21 +7,27 @@
     <g id="OSCAR-conf-file-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="oscar_conf" sketch:type="MSLayerGroup">
             <text id="rules:" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="bold" fill="#417505">
-                <tspan x="115" y="610">rules:</tspan>
+                <tspan x="115" y="610" text-decoration="underline">rules</tspan>
+                <tspan x="156.326172" y="610">:</tspan>
             </text>
             <g id="Group-1" transform="translate(435.000000, 486.000000)">
                 <rect id="Rectangle-1" fill="#F2EEEE" sketch:type="MSShapeGroup" x="0" y="0" width="114" height="265" rx="8"></rect>
                 <text id="name:" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="bold">
-                    <tspan x="9" y="70" fill="#417505">name:</tspan>
-                    <tspan x="9" y="92" fill="#417505">label:</tspan>
-                    <tspan x="9" y="114" fill="#417505">category:</tspan>
-                    <tspan x="9" y="136" fill="#417505">regex:</tspan>
+                    <tspan x="9" y="70" fill="#417505" text-decoration="underline">name</tspan>
+                    <tspan x="55.1689453" y="70" fill="#417505">:</tspan>
+                    <tspan x="9" y="92" fill="#417505" text-decoration="underline">label</tspan>
+                    <tspan x="49.5615234" y="92" fill="#417505">:</tspan>
+                    <tspan x="9" y="114" fill="#417505" text-decoration="underline">category</tspan>
+                    <tspan x="80.3847656" y="114" fill="#417505">:</tspan>
+                    <tspan x="9" y="136" fill="#417505" text-decoration="underline">regex</tspan>
+                    <tspan x="54.9052734" y="136" fill="#417505">:</tspan>
                     <tspan x="9" y="158" font-weight="normal" fill="#417505">heuristics</tspan>
                     <tspan x="83.6103516" y="158" fill="#417505">:</tspan>
                     <tspan x="89.7275391" y="158" fill="#417505"></tspan>
                     <tspan x="9" y="180" font-weight="normal" fill="#417505">advanced:</tspan>
                     <tspan x="9" y="202" font-weight="normal" fill="#417505">freetext:</tspan>
-                    <tspan x="9" y="224" fill="#417505">query:</tspan>
+                    <tspan x="9" y="224" fill="#417505" text-decoration="underline">query</tspan>
+                    <tspan x="56.4345703" y="224" fill="#417505">:</tspan>
                     <tspan x="62.5517578" y="224" font-weight="normal" fill="#417505"></tspan>
                     <tspan x="9" y="246" font-weight="normal" fill="#000000">}</tspan>
                     <tspan x="17.7451172" y="246" font-weight="normal" fill="#417505"></tspan>
@@ -36,7 +42,7 @@
             <text id="prefixes:" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="normal" fill="#417505">
                 <tspan x="106" y="251">prefixes:</tspan>
             </text>
-            <text id="sparql_endpoint:" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="bold" fill="#417505">
+            <text id="sparql_endpoint:" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="bold" text-decoration="underline" fill="#417505">
                 <tspan x="0" y="37">sparql_endpoint:</tspan>
             </text>
             <g id="Group-0-2" transform="translate(227.000000, 127.000000)">
@@ -84,38 +90,44 @@
             <path d="M383.5,615.5 L428.5,615.5" id="Line-2" stroke="#979797" stroke-linecap="square" fill="#000000" sketch:type="MSShapeGroup"></path>
             <path id="Line-2-decoration-1" d="M428.5,615.5 C424.72,614.45 421.48,613.55 417.7,612.5 C417.7,614.6 417.7,616.4 417.7,618.5 C421.48,617.45 424.72,616.55 428.5,615.5 C428.5,615.5 428.5,615.5 428.5,615.5 Z" stroke="#979797" stroke-linecap="square" fill="#000000"></path>
             <text id="categories:" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="bold" fill="#417505">
-                <tspan x="54" y="1166">categories:</tspan>
+                <tspan x="54" y="1166" text-decoration="underline">categories</tspan>
+                <tspan x="139.078125" y="1166">:</tspan>
             </text>
             <text id="page_limit:" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="bold" fill="#417505">
-                <tspan x="77" y="1551">page_limit:</tspan>
+                <tspan x="77" y="1551" text-decoration="underline">page_limit</tspan>
+                <tspan x="164.732422" y="1551">:</tspan>
             </text>
-            <text id="def_results_limit:" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="bold" fill="#417505">
+            <text id="def_results_limit:" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="bold" text-decoration="underline" fill="#417505">
                 <tspan x="54" y="1626">def_results_limit:</tspan>
             </text>
-            <text id="on_abort:" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="bold" fill="#417505">
+            <text id="on_abort:" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="bold" text-decoration="underline" fill="#417505">
                 <tspan x="82" y="1701">on_abort:</tspan>
             </text>
-            <text id="search_base_path:" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="bold" fill="#417505">
+            <text id="search_base_path:" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="bold" text-decoration="underline" fill="#417505">
                 <tspan x="47" y="1767">search_base_path:</tspan>
             </text>
-            <text id="advanced_search:" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="bold" fill="#417505">
+            <text id="advanced_search:" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="bold" text-decoration="underline" fill="#417505">
                 <tspan x="53" y="1842">advanced_search:</tspan>
             </text>
-            <text id="progress_loader:" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="bold" fill="#417505">
+            <text id="progress_loader:" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="bold" text-decoration="underline" fill="#417505">
                 <tspan x="59" y="1917">progress_loader:</tspan>
             </text>
-            <text id="def_adv_category:" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="bold" fill="#417505">
+            <text id="def_adv_category:" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="bold" text-decoration="underline" fill="#417505">
                 <tspan x="47" y="1992">def_adv_category:</tspan>
             </text>
             <g id="Group-1-2" transform="translate(431.000000, 1061.000000)">
                 <rect id="Rectangle-1" fill="#F2EEEE" sketch:type="MSShapeGroup" x="0" y="0" width="140" height="196" rx="8"></rect>
                 <text id="name:" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="bold">
-                    <tspan x="6" y="69" fill="#417505">name:</tspan>
-                    <tspan x="6" y="91" fill="#417505">label:</tspan>
-                    <tspan x="6" y="113" fill="#417505">macro_query:</tspan>
+                    <tspan x="6" y="69" fill="#417505" text-decoration="underline">name</tspan>
+                    <tspan x="52.1689453" y="69" fill="#417505">:</tspan>
+                    <tspan x="6" y="91" fill="#417505" text-decoration="underline">label</tspan>
+                    <tspan x="46.5615234" y="91" fill="#417505">:</tspan>
+                    <tspan x="6" y="113" fill="#417505" text-decoration="underline">macro_query</tspan>
+                    <tspan x="114.817383" y="113" fill="#417505">:</tspan>
                     <tspan x="6" y="135" font-weight="normal" fill="#417505">group_by</tspan>
                     <tspan x="79.7578125" y="135" fill="#417505">:</tspan>
-                    <tspan x="6" y="157" fill="#417505">fields:</tspan>
+                    <tspan x="6" y="157" fill="#417505" text-decoration="underline">fields</tspan>
+                    <tspan x="51.3076172" y="157" fill="#417505">:</tspan>
                     <tspan x="57.4248047" y="157" font-weight="normal" fill="#417505"></tspan>
                     <tspan x="6" y="179" font-weight="normal" fill="#000000">}</tspan>
                     <tspan x="14.7451172" y="179" font-weight="normal" fill="#417505"></tspan>
@@ -406,8 +418,10 @@
                 <text id="Object" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="normal">
                     <tspan x="3" y="25" fill="#000000">Object</tspan>
                     <tspan x="3" y="47" fill="#000000">{</tspan>
-                    <tspan x="3" y="69" font-weight="bold" fill="#417505">prefix:</tspan>
-                    <tspan x="3" y="91" font-weight="bold" fill="#417505">iri:</tspan>
+                    <tspan x="3" y="69" font-weight="bold" fill="#417505" text-decoration="underline">prefix</tspan>
+                    <tspan x="51.8232422" y="69" font-weight="bold" fill="#417505">:</tspan>
+                    <tspan x="3" y="91" font-weight="bold" fill="#417505" text-decoration="underline">iri</tspan>
+                    <tspan x="21.5625" y="91" font-weight="bold" fill="#417505">:</tspan>
                     <tspan x="27.6796875" y="91" fill="#417505"></tspan>
                     <tspan x="3" y="113" fill="#000000">}</tspan>
                 </text>
@@ -445,7 +459,7 @@
                 <tspan x="1232.48047" y="114" font-size="18" fill="#417505"></tspan>
                 <tspan x="1163" y="141" font-size="18" fill="#417505"></tspan>
                 <tspan x="1163" y="163" font-size="18" fill="#417505">Object-key (optional)	              </tspan>
-                <tspan x="1163" y="185" font-size="18" font-weight="bold" fill="#417505">Object-key (primary)	              </tspan>
+                <tspan x="1163" y="185" font-size="18" font-weight="bold" fill="#417505" text-decoration="underline">Object-key (primary)	              </tspan>
                 <tspan x="1432.33594" y="185" font-size="18" fill="#4A4A4A"></tspan>
                 <tspan x="1163" y="207" font-size="18" fill="#3F7EC8">Example value</tspan>
                 <tspan x="1163" y="229" font-size="18" fill="#000000">Data type</tspan>
@@ -489,7 +503,8 @@
                 <text id="Object" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="normal">
                     <tspan x="3" y="25" fill="#000000">Object</tspan>
                     <tspan x="3" y="47" fill="#000000">{</tspan>
-                    <tspan x="3" y="69" font-weight="bold" fill="#417505">keys:</tspan>
+                    <tspan x="3" y="69" font-weight="bold" fill="#417505" text-decoration="underline">keys</tspan>
+                    <tspan x="39.703125" y="69" font-weight="bold" fill="#417505">:</tspan>
                     <tspan x="3" y="91" fill="#417505">concats:</tspan>
                     <tspan x="3" y="113" fill="#000000">}</tspan>
                 </text>
@@ -499,7 +514,8 @@
                 <text id="Object" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="normal">
                     <tspan x="3" y="25" fill="#000000">Object</tspan>
                     <tspan x="3" y="47" fill="#000000">{</tspan>
-                    <tspan x="3" y="69" font-weight="bold" fill="#417505">field:</tspan>
+                    <tspan x="3" y="69" font-weight="bold" fill="#417505" text-decoration="underline">field</tspan>
+                    <tspan x="40.265625" y="69" font-weight="bold" fill="#417505">:</tspan>
                     <tspan x="3" y="91" fill="#000000">}</tspan>
                 </text>
             </g>
@@ -508,7 +524,8 @@
                 <text id="Object" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="normal">
                     <tspan x="3" y="25" fill="#000000">Object</tspan>
                     <tspan x="3" y="47" fill="#000000">{</tspan>
-                    <tspan x="3" y="69" font-weight="bold" fill="#417505">value:</tspan>
+                    <tspan x="3" y="69" font-weight="bold" fill="#417505" text-decoration="underline">value</tspan>
+                    <tspan x="47.7363281" y="69" font-weight="bold" fill="#417505">:</tspan>
                     <tspan x="3" y="91" fill="#000000">}</tspan>
                 </text>
             </g>
@@ -517,7 +534,8 @@
                 <text id="Object" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="normal">
                     <tspan x="3" y="25" fill="#000000">Object</tspan>
                     <tspan x="3" y="47" fill="#000000">{</tspan>
-                    <tspan x="3" y="69" font-weight="bold" fill="#417505">field:</tspan>
+                    <tspan x="3" y="69" font-weight="bold" fill="#417505" text-decoration="underline">field</tspan>
+                    <tspan x="40.265625" y="69" font-weight="bold" fill="#417505">:</tspan>
                     <tspan x="3" y="91" fill="#417505">prefix</tspan>
                     <tspan x="48.4921875" y="91" font-weight="bold" fill="#417505">:</tspan>
                     <tspan x="3" y="113" fill="#000000">}</tspan>
@@ -528,10 +546,14 @@
                 <text id="Object" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="normal">
                     <tspan x="3" y="25" fill="#000000">Object</tspan>
                     <tspan x="3" y="47" fill="#000000">{</tspan>
-                    <tspan x="3" y="69" font-weight="bold" fill="#417505">type_sort:</tspan>
-                    <tspan x="3" y="91" font-weight="bold" fill="#417505">min:</tspan>
-                    <tspan x="3" y="113" font-weight="bold" fill="#417505">sort:</tspan>
-                    <tspan x="3" y="135" font-weight="bold" fill="#417505">order:</tspan>
+                    <tspan x="3" y="69" font-weight="bold" fill="#417505" text-decoration="underline">type_sort</tspan>
+                    <tspan x="80.2294922" y="69" font-weight="bold" fill="#417505">:</tspan>
+                    <tspan x="3" y="91" font-weight="bold" fill="#417505" text-decoration="underline">min</tspan>
+                    <tspan x="35.4404297" y="91" font-weight="bold" fill="#417505">:</tspan>
+                    <tspan x="3" y="113" font-weight="bold" fill="#417505" text-decoration="underline">sort</tspan>
+                    <tspan x="35.4492188" y="113" font-weight="bold" fill="#417505">:</tspan>
+                    <tspan x="3" y="135" font-weight="bold" fill="#417505" text-decoration="underline">order</tspan>
+                    <tspan x="48.703125" y="135" font-weight="bold" fill="#417505">:</tspan>
                     <tspan x="3" y="157" fill="#000000">}</tspan>
                 </text>
             </g>
@@ -540,12 +562,14 @@
                 <text id="Object" sketch:type="MSTextLayer" font-family="Charter" font-size="18" font-weight="normal">
                     <tspan x="4" y="23" fill="#000000">Object</tspan>
                     <tspan x="4" y="45" fill="#000000">{</tspan>
-                    <tspan x="4" y="67" font-weight="bold" fill="#417505">value:</tspan>
-                    <tspan x="4" y="89" font-weight="bold" fill="#417505">title:</tspan>
+                    <tspan x="4" y="67" font-weight="bold" fill="#417505" text-decoration="underline">value</tspan>
+                    <tspan x="48.7363281" y="67" font-weight="bold" fill="#417505">:</tspan>
+                    <tspan x="4" y="89" font-weight="bold" fill="#417505" text-decoration="underline">title</tspan>
+                    <tspan x="37.2841797" y="89" font-weight="bold" fill="#417505">:</tspan>
                     <tspan x="43.4013672" y="89" fill="#417505"></tspan>
-                    <tspan x="4" y="111" font-weight="bold" fill="#417505">column_width</tspan>
+                    <tspan x="4" y="111" font-weight="bold" fill="#417505" text-decoration="underline">column_width</tspan>
                     <tspan x="122.977539" y="111" fill="#417505">:</tspan>
-                    <tspan x="4" y="133" font-weight="bold" fill="#417505">type</tspan>
+                    <tspan x="4" y="133" font-weight="bold" fill="#417505" text-decoration="underline">type</tspan>
                     <tspan x="39.7802734" y="133" fill="#417505">:</tspan>
                     <tspan x="4" y="155" fill="#417505">label:</tspan>
                     <tspan x="4" y="177" fill="#417505">filter:</tspan>
