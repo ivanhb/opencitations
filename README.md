@@ -3,5 +3,5 @@ The main work of OpenCitations is the creation and current expansion of the Open
 I am creating new additional components and interfaces, mainly related to data-visulaization, to integrate inside the current project .
 [opencitations.net/](http://opencitations.net/)
 
-<img src="img/favicon.ico" style="height: 150px; width: 150px;"/>
+<img src="https://github.com/opencitations/website/blob/master/static/img/logo.png" height="200px" width= "200px"/>
 
