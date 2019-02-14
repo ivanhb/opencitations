@@ -5,7 +5,7 @@ I worked as a **Research fellow** for this project from: **Nov 2018 to Nov 2019*
 My main contribution was regarding the creation of new additional querying and visual interfaces for the RDF datasets handled by OpenCitations. The main two projects developed are: [OSCAR](https://github.com/opencitations/oscar) and [LUCINDA](https://github.com/opencitations/lucinda). 
 
 
-<img src="https://github.com/opencitations/website/blob/master/static/img/logo.png" height="200px" width= "200px"/>
+<img src="img/logo.png" height="200px" width= "200px"/>
 
-<img src="https://github.com/opencitations/oscar/blob/master/doc/oscar_logo.png" width="250">  
-<img src="https://github.com/opencitations/lucinda/blob/master/doc/lucinda_logo.png" width="250">
+<img src="img/oscar_logo.png" width="250">  
+<img src="img/lucinda_logo.png" width="250">
