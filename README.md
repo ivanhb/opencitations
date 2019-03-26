@@ -7,5 +7,5 @@ My main contribution was regarding the creation of new additional querying and v
 
 <img src="doc/img/logo.png" height="200px" width= "200px"/>
 
-<img src="doc/img/oscar_logo.png" width="250">  
-<img src="doc/img/lucinda_logo.png" width="250">
+<img src="https://opencitations.github.io/oscar/doc/oscar_logo.png" width="250">
+<img src="https://opencitations.github.io/lucinda/doc/lucinda_logo.png" width="250">  
