@@ -1,3 +1,6 @@
 .DS_Store
-.ipynb_checkpoints
+__pycache__
+.ipynb_*
 paper/sci_framework/data
+data/
+.tmp.drivedownload
